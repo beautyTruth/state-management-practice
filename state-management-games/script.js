@@ -12,6 +12,12 @@ window.addEventListener("load", () => {
   const player = new Player(canvas.width, canvas.height);
   player.draw(ctx);
   const input = new InputHandler();
+
+  function animate() {
+    console.log(input.lastKey);
+    requestAnimationFrame(animate);
+  }
+  animate();
 });
 
 // i should have been a pair of ragged claws scuttling along the floors of silent seas
