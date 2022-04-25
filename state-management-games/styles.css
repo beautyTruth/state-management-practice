@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5;
+  scroll-behavior: smooth;
+  background-color: mintcream;
+}
+
+body {
+  overflow: hidden;
+}
+
+canvas {
+  background: aliceblue;
+  top: 0;
+  left: 0;
+  border: 0.5rem solid cornsilk;
+  box-shadow: 0.5rem 0.5rem 5rem 0.5rem cornsilk,
+    -0.5rem -0.5rem 5rem 0.5rem cornsilk;
+}
+
+img {
+  display: none;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 8rem;
+  font-family: Futura, Arial, Helvetica, sans-serif;
+}
+
+/* #bathtubFarts {
+  border: 0.5rem solid cornsilk;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0.5rem 0.5rem 5rem 0.5rem cornsilk,
+    -0.5rem -0.5rem 5rem 0.5rem cornsilk;
+} */
