@@ -25,3 +25,5 @@ class StandingRight extends State {
   enter() {}
   handleInput() {}
 }
+
+// Resist much; obey little
